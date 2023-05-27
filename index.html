@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ankit's Portfolio</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="shortcut icon" href="/img/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__div">
+                <h1 class="header__h1">
+                    <h1><span class="nowrap">Ankit's Portfolio</span></h1>
+            </div>
+            <div class="header__div">
+                <ul class="header__ul">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Blogs</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li> <span class="nowrap"><a href="/">Contact Me</a></span></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="hero__div">
+            <h2 class="hero__h2">
+                <div>Hi, my name is <span class="purple"> Ankit</span></div>
+                <div>and I am a passionate </div>
+                <span id="element"></span>
+            </h2>
+            <div class="buttons">
+                <button class="btn">Download Resume</button>
+                <button class="btn">Github</button>
+            </div>
+        </div>
+        <figure class="hero__figure">
+            <img class="hero__img" src="/img/developer_img-512-512.png" alt="developer_img" width="512" height="512">
+            <figcaption class="offscreen">Developer Image</figcaption>
+        </figure>
+    </section>
+
+    <main>
+        <hr>
+        <section class="skills">
+            <div class="skills__header">
+                <span class="skills__header_span">What have i done so far</span>
+                <h2 class="skills__header_h2">My Skills</h2>
+            </div>
+            <div class="box">
+                <div class="vertical">
+                    <img class="vertical__img" src="/img/skills_img.png" alt="skills-png" width="312" height="312">
+                    <div class="vertical__title">Lorem, ipsum.</div>
+                    <div class="vertical__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                        fugiat incidunt explicabo mollitia molestias nesciunt ipsam, vel et quidem aperiam.</div>
+                </div>
+                <div class="vertical">
+                    <img class="vertical__img" src="/img/skills_img.png" alt="skills-png" width="312" height="312">
+                    <div class="vertical__title">Lorem, ipsum.</div>
+                    <div class="vertical__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                        fugiat incidunt explicabo mollitia molestias nesciunt ipsam, vel et quidem aperiam.</div>
+                </div>
+                <div class="vertical">
+                    <img class="vertical__img" src="/img/skills_img.png" alt="skills-png" width="312" height="312">
+                    <div class="vertical__title">Lorem, ipsum.</div>
+                    <div class="vertical__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                        fugiat incidunt explicabo mollitia molestias nesciunt ipsam, vel et quidem aperiam.</div>
+                </div>
+                <div class="vertical">
+                    <img class="vertical__img" src="/img/skills_img.png" alt="skills-png" width="312" height="312">
+                    <div class="vertical__title">Lorem, ipsum.</div>
+                    <div class="vertical__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                        fugiat incidunt explicabo mollitia molestias nesciunt ipsam, vel et quidem aperiam.</div>
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+        <section class="footer__section">
+            <div class="footer__div1">Ankit's Developer Portfolio</div>
+            <div class="footer__div2">
+                <ul class="footer__ul">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Blogs</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer__div3">
+                <ul class="footer__ul">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Blogs</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer__div4">
+                <ul class="footer__ul">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Blogs</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </section>
+        <article class="footer__rights">
+            <div>Copyright &copy; ankitportfolio.com | All Rights Reserved.</div>
+        </article>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Desiginer.', 'blockchain Enthusiast.', 'Devops.', 'Web Developer.'],
+            typeSpeed: 20,
+        });
+    </script>
+</body>
+
+</html>
